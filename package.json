@@ -1,0 +1,16 @@
+{
+  "name": "wechat-send",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "description": "Send a text message to a WeChat contact by name: share-intent route, screenshot + OCR, no typing.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  }
+}
